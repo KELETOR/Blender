@@ -1,0 +1,9 @@
+import bpy
+import random
+
+#cub3 = bpy.ops.mesh.primitive_cube_add(size =2, enter_editmode = False, location = (0,0,0))
+
+x = "three"
+
+for y in x:
+    cub3 = bpy.ops.mesh.primitive_cube_add(size =random.randint(1,5), enter_editmode = False, location = (random.randint(-4,10),random.randint(-4,10),random.randint(-4,10)))
